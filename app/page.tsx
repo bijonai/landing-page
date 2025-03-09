@@ -1,9 +1,41 @@
+import Footer from '@/components/footer'
+import LinkCard from '@/components/link-card'
+import { ArrowRight } from 'lucide-react'
+
 export default function Home() {
   return (
-    <div>
-      <div></div>
-      <div></div>
-      <footer></footer>
+    <div className="min-h-screen">
+      <div className="w-full bg-linear-123 from-[#FFE373] via-[#F4C09F] to-[#DC73FF] py-4 px-5 text-white/70">
+        <header className=" flex justify-end px-4 ">
+          <div className="flex gap-4">
+            <span>博客</span>
+            <span>English</span>
+          </div>
+        </header>
+        <div className="container mx-auto">
+          <div className="pt-12 pb-32">
+            <div className="py-6">
+              <div className="text-7xl font-bold">BijonAI</div>
+              <div className="text-2xl pt-6">
+                To Innovate the AI technology with CREATIVITY
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6 mt-16 max-w-4xl">
+              <LinkCard
+                title="EchoA"
+                description="上您的专属AI导师探索新知识"
+              />
+              <LinkCard
+                title="Platform"
+                description="上您的专属AI导师探索新知识"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <main className="container mx-auto h-32"></main>
+      <Footer />
     </div>
   )
 }
