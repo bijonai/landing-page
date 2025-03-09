@@ -1,10 +1,9 @@
 import Footer from '@/components/footer'
 import LinkCard from '@/components/link-card'
-import { ArrowRight } from 'lucide-react'
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-dvh grid grid-rows-[auto_1fr_auto]">
       <div className="w-full bg-linear-123 from-[#FFE373] via-[#F4C09F] to-[#DC73FF] py-4 px-5 text-white/70">
         <header className=" flex justify-end px-4 ">
           <div className="flex gap-4">
