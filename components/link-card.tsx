@@ -8,7 +8,7 @@ function LinkCard({
   description: string
 }) {
   return (
-    <div className="bg-orange-50/90 rounded-lg p-6 flex flex-col justify-between hover:shadow-lg transition-shadow group text-black/70">
+    <div className="bg-orange-50/90 rounded-lg p-6 flex flex-col justify-between hover:shadow-lg transition-shadow group text-black/70 cursor-pointer">
       <div>
         <h2 className="text-2xl mb-2">{title}</h2>
         <p className="text-black/55">{description}</p>

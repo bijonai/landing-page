@@ -1,5 +1,8 @@
-import { ArrowRight, Mail, Github, Twitter } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import FooterList from './footer-list'
+import { LogosX } from './icons/logos-x'
+import { LogosYoutubeIcon } from './icons/logos-youtube'
+import { LogosGithubIcon } from './icons/logos-github'
 
 function Footer() {
   return (
@@ -10,11 +13,11 @@ function Footer() {
           <img src="/text.svg" alt="logo-text" className="w-24 h-6" />
         </div>
         <div className="p-6">
-          <div className="flex flex-row items-center gap-2">
-            <ArrowRight />
-            <Mail />
-            <Github />
-            <Twitter />
+          <div className="flex flex-row items-center gap-6">
+            <Mail className="size-8 text-black/50" />
+            <LogosYoutubeIcon className="size-8 text-black/50" />
+            <LogosGithubIcon className="size-8 text-black/50" />
+            <LogosX className="size-8 text-black/50" />
           </div>
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4  pt-3">
