@@ -9,7 +9,7 @@ function Footer() {
           <img src="/logo.svg" alt="logo" className="w-12 h-12" />
           <img src="/text.svg" alt="logo-text" className="w-24 h-6" />
         </div>
-        <div className="p-3">
+        <div className="p-6">
           <div className="flex flex-row items-center gap-2">
             <ArrowRight />
             <Mail />
