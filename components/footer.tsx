@@ -20,7 +20,7 @@ function Footer() {
             <LogosX className="size-8 text-black/50" />
           </div>
 
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4  pt-3">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-5 pt-3">
             <FooterList
               title="产品"
               items={['EchoAI', 'SayoAI', 'Eich', 'IdeaJs']}
