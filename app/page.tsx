@@ -23,11 +23,11 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-6 mt-24 max-w-4xl">
               <LinkCard
                 title="EchoA"
-                description="上您的专属AI导师探索新知识"
+                description="与您的专属AI导师探索新知识"
               />
               <LinkCard
                 title="Platform"
-                description="上您的专属AI导师探索新知识"
+                description="访问我们的API平台以获取开发者服务"
               />
             </div>
           </div>
