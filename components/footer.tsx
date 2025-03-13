@@ -23,15 +23,15 @@ function Footer() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-5 pt-3">
             <FooterList
               title="产品"
-              items={['EchoAI', 'SayoAI', 'Eich', 'IdeaJs']}
+              items={['EchoAI', 'SayoAI', 'SciuxJs', 'Sciux XML', 'Sciux Laplace', 'Echo App']}
             />
             <FooterList
               title="开发者服务"
-              items={['Platform', 'API Documentation', 'SDK']}
+              items={['Platform', 'Documentations', 'SDK', 'Open Source']}
             />
             <FooterList title="政策" items={['隐私政策', '用户协议', '帮助']} />
             <FooterList title="加入我们" items={['职位要求']} />
-            <FooterList title="其他" items={['定价']} />
+            <FooterList title="其他" items={['定价', '联系我们']} />
           </div>
 
           <div className="flex flex-col pt-24 text-[#ccc]">
