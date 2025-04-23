@@ -25,13 +25,13 @@ export default function Products() {
     <div className="container mx-auto flex flex-col items-center justify-center min-h-[50vh]">
       <div className="w-full max-w-6xl">
         <div className="flex items-center justify-center mb-12">
-          <h1 className="text-4xl font-bold">产品</h1>
+          <h1 className="text-4xl font-bold">Products</h1>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8">
           {/* Left side - Product list */}
           <div className="bg-gray-50 rounded-lg p-6">
-            <h2 className="text-2xl font-semibold mb-6">产品列表</h2>
+            <h2 className="text-2xl font-semibold mb-6">Products List</h2>
             <div className="space-y-4">
               {productData.map((product) => (
                 <div 
@@ -57,7 +57,7 @@ export default function Products() {
             <h2 className="text-3xl font-bold mb-4">{selectedProduct.name}</h2>
             <p className="text-xl text-gray-600 mb-3">{selectedProduct.description}</p>
             <div className="mt-6">
-              <h3 className="text-xl font-semibold mb-3">详细介绍</h3>
+              <h3 className="text-xl font-semibold mb-3">Details</h3>
               <p className="text-gray-700 leading-relaxed">{selectedProduct.details}</p>
             </div>
             <div className="mt-8">
@@ -65,7 +65,7 @@ export default function Products() {
                 href="#" 
                 className="inline-block px-6 py-3 bg-linear-123 from-[#FFE373] via-[#F4C09F] to-[#DC73FF] text-white font-medium rounded-lg"
               >
-                了解更多
+                Learn More
               </a>
             </div>
           </div>
