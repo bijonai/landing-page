@@ -1,7 +1,6 @@
 import Footer from '@/components/footer'
 import LinkCard from '@/components/link-card'
 import Products from '@/components/products'
-import OpenSource from '@/components/open-source'
 
 export default function Home() {
   return (
@@ -10,10 +9,10 @@ export default function Home() {
         <header className=" flex justify-end px-4 ">
           <div className="flex gap-4">
             <span>
-              <a href="https://blog.bijon.ai">博客</a>
+              <a href="https://blog.bijon.ai">Blog</a>
             </span>
             <span>
-              <a href="https://bijon.ai">English</a>
+              <a href="https://bijon.ai">中文</a>
             </span>
           </div>
         </header>
@@ -31,13 +30,13 @@ export default function Home() {
               <a href="https://bijon.ai">
                 <LinkCard
                   title="EchoAI"
-                  description="与您的专属AI导师探索新知识"
+                  description="Explore knowledges with your own studymate."
                 />
               </a>
-              <a href="https://platform.bijon.ai">
+              <a href="https://github.com/bijonai/EchoAI">
                 <LinkCard
-                  title="Platform"
-                  description="访问我们的API平台以获取开发者服务"
+                  title="GitHub"
+                  description="Star our project on GitHub."
                 />
               </a>
             </div>
@@ -47,9 +46,6 @@ export default function Home() {
       <main className="bg-white">
         <div className="my-5 text-black">
           <Products />
-        </div>
-        <div className="my-5 text-black">
-          <OpenSource />
         </div>
       </main>
       <Footer />

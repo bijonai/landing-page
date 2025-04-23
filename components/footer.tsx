@@ -22,22 +22,20 @@ function Footer() {
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-5 pt-3">
             <FooterList
-              title="产品"
-              items={['EchoAI', 'SayoAI', 'SciuxJs', 'Sciux XML', 'Sciux Laplace', 'Echo App']}
+              title="Products"
+              items={['EchoAI', 'SciuxJs', 'Sciux Laplace']}
             />
             <FooterList
-              title="开发者服务"
-              items={['Platform', 'Documentations', 'SDK', 'Open Source']}
+              title="Developer Services"
+              items={['Documentations', 'GitHub Repository']}
             />
-            <FooterList title="政策" items={['隐私政策', '用户协议', '帮助']} />
-            <FooterList title="加入我们" items={['职位要求']} />
-            <FooterList title="其他" items={['定价', '联系我们']} />
+            <FooterList title="Policies" items={['Privacy Policy', 'Terms of Service', 'Help']} />
+            <FooterList title="Join Us" items={['Job Requirements']} />
+            <FooterList title="Other" items={['Pricing', 'Contact Us', 'Blog']} />
           </div>
 
           <div className="flex flex-col pt-24 text-[#ccc]">
-            <span>© 2025 xxxxx有限公司 版权所有</span>
-            <span> xICP备xxxxxxxxxx号 </span>
-            <span> x公网安备 xxxxxxxxxxxxxx 号</span>
+            <span>Copyright © 2025 BijonAI</span>
           </div>
         </div>
       </div>

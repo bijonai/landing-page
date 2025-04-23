@@ -7,14 +7,14 @@ const productData = [
   {
     id: 1,
     name: "EchoAI",
-    description: "与您的专属AI导师探索新知识",
-    details: ""
+    description: "Explore knowledges with your own studymate.",
+    details: "EchoAI is a open-source AI-powered assistant applied on education with a whiteboard and step-by-step teaching mode, which could become your best learning partner or teacher. You can use it to learning mathematics, physics, computer science and whatever you could imagine."
   },
   {
     id: 2,
-    name: "SayoAI",
-    description: "基于语言模型和浏览器前端的可视化可交互式图形AI",
-    details: "基于我们的开源项目SciuxJs, SayoAI可以通过LLM生成可交互的布局，图形，动画，数学组件，物理组件，甚至3D组件等各种专业领域的高精度可交互绘图"
+    name: "Sciux",
+    description: "AI STEM toolkits",
+    details: "Open-source AI STEM toolkits for education and research, including math, physics, chemistry, biology, and more, with a HTML-like syntax to generate interactive diagrams and animations."
   }
 ];
 
