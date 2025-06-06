@@ -23,15 +23,37 @@ function Footer() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-5 pt-3">
             <FooterList
               title="Products"
-              items={['EchoAI', 'SciuxJs', 'Sciux Laplace']}
+              items={
+                [
+                  ['EchoAI', 'https://github.com/bijonai/EchoAI'],
+                  ['SciuxJs', 'https://github.com/sciux-kit/lib-js'],
+                  ['Sciux Laplace', 'https://github.com/sciux-kit/laplace'],
+                ]
+              }
             />
             <FooterList
               title="Developer Services"
-              items={['Documentations', 'GitHub Repository']}
+              items={[
+                ['Documentations', 'https://echo.bijon.ai'],
+                ['GitHub', 'https://github.com/bijonai'],
+              ]}
             />
-            <FooterList title="Policies" items={['Privacy Policy', 'Terms of Service', 'Help']} />
-            <FooterList title="Join Us" items={['Job Requirements']} />
-            <FooterList title="Other" items={['Pricing', 'Contact Us', 'Blog']} />
+            <FooterList title="Policies" items={[
+                ['Privacy Policy', '#'],
+                ['Terms of Service', '#'],
+                ['Help', '#'],
+              ]}
+            />
+            <FooterList title="Join Us" items={[
+                ['Email Us', 'mailto:info@bijon.ai'],
+              ]}
+            />
+            <FooterList title="Other" items={[
+                ['Pricing', '#'],
+                ['Contact Us', 'mailto:info@bijon.ai'],
+                ['Blog', 'https://echo.bijon.ai/blog'],
+              ]}
+            />
           </div>
 
           <div className="flex flex-col pt-24 text-[#ccc]">
