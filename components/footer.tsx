@@ -26,7 +26,7 @@ function Footer() {
               items={
                 [
                   ['EchoAI', 'https://github.com/bijonai/EchoAI'],
-                  ['SciuxJs', 'https://github.com/sciux-kit/lib-js'],
+                  ['SciuxJs', 'https://github.com/sciux-kit/lib'],
                   ['Sciux Laplace', 'https://github.com/sciux-kit/laplace'],
                 ]
               }
